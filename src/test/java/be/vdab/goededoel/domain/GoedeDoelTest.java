@@ -20,7 +20,7 @@ class GoedeDoelTest {
 	}
 	@Test
 	void eenNieuweDoelHeeftNogGeenOpbrengst(){
-		assertThat(doel.getOpbrengst()).isPositive();
+		assertThat(doel.getOpbrengst()).isZero();
 	}
 	@Test
 	void doelenMetDezelfdeNaamZijnGelijk(){
