@@ -36,4 +36,9 @@ public class GoedeDoel {
 		}
 		return false;
 	}
+
+	@Override
+	public int hashCode(){
+		return this.naam.toUpperCase().hashCode();
+	}
 }
